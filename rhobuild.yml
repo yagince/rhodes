@@ -1,0 +1,44 @@
+---
+env:
+  app: C:/rhodes-app
+  paths:
+    java: /Library/Java/Home/bin
+    android: /usr/local/Cellar/android-sdk/r21.1
+    android-ndk: /usr/local/Cellar/android-ndk/r8d
+    cabwiz: 
+    4.6:
+      jde: 
+      mds: 
+      sim: 9000
+    4.2:
+      jde: 
+      mds: 
+      sim: 8100
+build:
+  bbpath: platform/bb
+  wmpath: platform/wm
+  wppath: platform/wp7
+  wp8path: platform/wp8
+  androidpath: platform/android
+  iphonepath: platform/iphone
+  symbianpath: platform/symbian
+  bb: 
+  bbsignpwd: somepasswordhere
+android: 
+excludedirs:
+  all:
+  - ! '**/.*.swo'
+  - ! '**/.*.swn'
+  - ! '**/.DS_Store'
+  bb:
+  - public/js/iui
+  - public/js/jquery*
+  - public/jqtouch*
+  - public/js/prototype*
+  - public/css/iphone*
+  - public/iwebkit
+  - public/themes
+  - ! '**/jquery*.js'
+  - ! '**/*.db'
+  - public/images/android
+  - public/images/iphone

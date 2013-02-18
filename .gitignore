@@ -4,8 +4,8 @@ lib/**/*.o
 tags
 *.swp
 .DS_Store
-rakefile.rb
-rhobuild.yml
+#rakefile.rb
+#rhobuild.yml
 rhobuild.*.yml
 rhodes/*/pkg/
 rhodes/rhodes-framework/spec/bin/
