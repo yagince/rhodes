@@ -2505,6 +2505,7 @@ lib/test/framework_test.rb
 lib/test/rho_stubs.rb
 lib/test/syncdb.sqlite
 LICENSE
+Manifest.txt
 platform/android/build/android.rake
 platform/android/build/android_tools.rb
 platform/android/build/androidcommon.rb
